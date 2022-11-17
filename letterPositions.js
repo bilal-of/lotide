@@ -40,8 +40,7 @@ const letterPositions = function(sentence) {
       position[letter] = [i]
     }
   }
-  return position; 
-
+  return position;
 };
 
 
