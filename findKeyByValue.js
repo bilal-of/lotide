@@ -12,7 +12,7 @@ const findKeyByValue = function(obj, value) {
   // i want to go through the object 
   // get value for key 
   //then compare  
-  for (let key of Object.keys(obj)) {
+  for (let key in obj) {
     if (obj[key] === value) {
       return key;
     }
